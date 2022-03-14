@@ -2,6 +2,7 @@ html {
   box-sizing: border-box;
   line-height: 1.3rem;
   font-weight: normal;
+  color: #555
 }
 
 *, *::before, *::after {
@@ -17,4 +18,15 @@ h1 {
 
 header {
   font-style: italic;
+}
+
+column-rule: 2px solid
+
+p {
+padding-right: 1rem;
+padding-left: 1rem;
+}
+
+.quote {
+  color: #999
 }
