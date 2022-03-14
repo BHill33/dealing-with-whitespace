@@ -1,8 +1,9 @@
 html {
   box-sizing: border-box;
+  font-family: "Crimson Text", regular, serif;
   line-height: 1.3rem;
   font-weight: normal;
-  color: #555
+  color: #555;
 }
 
 *, *::before, *::after {
@@ -10,23 +11,28 @@ html {
 }
 
 h1 {
-  font-family: "Crimson Text", sans-serif;
+  font-family: "Crimson Text", serif;
   font-style: normal;
   font-size: 1.5rem;
   color: #222;
+}
+
+article h1 {
+  margin-right: 0
+  margin-bottom: 0
 }
 
 header {
   font-style: italic;
 }
 
-column-rule: 2px solid
-
-p {
-padding-right: 1rem;
-padding-left: 1rem;
+body {
+  margin: 1.5rem;
+  padding-right: 1rem;
+  padding-left: 1rem;
 }
 
-.quote {
-  color: #999
+blockquote {
+  font-size: 1.5rem;
+  color: #999;
 }
