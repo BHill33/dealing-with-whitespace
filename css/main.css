@@ -46,13 +46,14 @@ blockquote {
 }
 
 .quote {
+  font-family: "Crimson Text", serif;
   color: #999;
 }
 
 article ol {
   font-family: "Crimson Text", serif;
   font-size: 1rem;
-  color: #555;
+  padding-left: 1rem;
 }
 
 body {
@@ -60,4 +61,13 @@ body {
   border-bottom-style: solid;
   border-bottom-width: thin;
   border-bottom-color: #999;
+}
+
+article {
+  font-family: "Crimson Text", serif;
+  font-size: 1.125rem;
+}
+
+blockquote p {
+  font-size: 1.2rem;
 }
